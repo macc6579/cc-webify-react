@@ -1,0 +1,39 @@
+body
+  margin: 0
+  font-family: -apple-system,BlinkMacSystemFont,'PingFang SC','Helvetica Neue','Segoe UI','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+  color: #314659
+  font-size: 14px
+
+code
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
+
+// custom scroll bar styles
+::-webkit-scrollbar
+  width: 4px
+  // height: 0
+  background: #eee
+  opacity: .8
+// ::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb
+  background: #ccc
+  border-radius: 2px
+  opacity: .8
+
+@for $i from 2 through 12
+  .mt#{$i}
+    margin-top: #{$i}px
+
+@for $i from 2 through 12
+  .mr#{$i}
+    margin-right: #{$i}px
+
+@for $i from 2 through 12
+  .mb#{$i}
+    margin-bottom: #{$i}px
+
+@for $i from 2 through 12
+  .ml#{$i}
+    margin-left: #{$i}px

@@ -1,0 +1,105 @@
+$primary-color: #08979c // 全局主色
+$link-color: #08979c // 链接色
+$success-color: #52c41a // 成功色
+$warning-color: #faad14 // 警告色
+$error-color: #f5222d // 错误色
+$font-size-base: 14px // 主字号
+$heading-color: rgba(0, 0, 0, 0.85) // 标题色
+$text-color: rgba(0, 0, 0, 0.65) // 主文本色
+$text-color-secondary: rgba(0, 0, 0, 0.45) // 次文本色
+$disabled-color: rgba(0, 0, 0, 0.25) // 失效色
+$border-radius-base: 2px // 组件/浮层圆角
+$border-color-base: #d9d9d9 // 边框色
+$box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15) // 浮层阴影
+
+@mixin reset-list
+  margin: 0
+  padding: 0
+  list-style: none
+
+@mixin flex-row-start
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+
+@mixin flex-row-center
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+@mixin flex-row-space-between
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+@mixin flex-row-end
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+
+@mixin flex-column-start
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+
+@mixin flex-column-center
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+@mixin flex-column-end
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+
+@mixin flex-column-space-between
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+@mixin fixed-shade
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+
+@mixin self-absolute-row-center
+  position: absolute
+  left: 50%
+  transform: translate(-50%, 0)
+
+.reset-list
+  margin: 0
+  padding: 0
+  list-style: none
+
+.flex-row-start
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+
+.flex-row-center
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+.flex-row-space-between
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+.flex-row-end
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+
+.flex-column-start
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+
+.flex-column-center
+  display: flex
+  flex-direction: column
+  justify-content: center
